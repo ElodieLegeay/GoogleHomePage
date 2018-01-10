@@ -1,0 +1,53 @@
+
+*{
+  font-family: arial,sans-serif;
+  color: rgba(0,0,0,.54);
+  font-size: small;
+}
+
+li {
+    display: inline;
+}
+.div1, .div2, .div3, .div4
+{
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.searchTerm{
+  width: 400px;
+}
+
+#trucsaaligner{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+#France{
+  display: flex;
+  justify-content: flex-start;
+  background: #f2f2f2;
+}
+
+.footer2gauche{
+  display: flex;
+  flex-direction: row
+}
+
+.footer2droite{
+  display: flex;
+  flex-direction: row;
+}
+
+#footer2{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background: #f2f2f2;
+  margin-left: -40px;
+}
